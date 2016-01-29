@@ -39,6 +39,7 @@ var favorites = [
       ["Drive" , "https://drive.google.com", "dr"],
       ["IFTTT" , "https://ifttt.com/start", "ifttt"],
       ["Github" , "https://github.com/", "gh"],
+      ["Awesome Resources" , "https://github.com/0XE4/awesome-stock-resources", "ar"],
       ["Wired" , "http://www.wired.co.uk", "wi"],
       ["iFixit" , "https://www.ifixit.com/", "ifi"],
       ["RarBG" , "https://rarbg.com", "rar"],
