@@ -97,6 +97,4 @@ var favorites = [
 ];
 var feeds = [
   ["News","http://feeds.bbci.co.uk/news/rss.xml?edition=uk"],
-  ["Internet is Beautiful", "https://www.reddit.com/r/InternetIsBeautiful/.rss"],
-  ["Listen to this", "https://www.reddit.com/r/listentothis/.rss"]
 ];
