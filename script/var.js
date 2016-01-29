@@ -1,11 +1,9 @@
 // All the variable for the app
 // Their name are explicit
 
-var username = "LIAM"
-var clientid = "be212a58528168962a39c64052c1d88e";
-var redirecturi = "http://localhost:8002/callback.html";
+var username = "Ajnix"
 var locations = [
-  "26088",
+  "29062",
 ];
 var images = [
   "1412446496031.jpg",
