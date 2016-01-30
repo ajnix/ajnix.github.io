@@ -6,25 +6,18 @@ var locations = [
   "29062",
 ];
 var images = [
-  "1412446496031.jpg",
   "1417804954510.jpg",
   "1422771896804.jpg",
-  "1424655132831.jpg",
   "1425939966695.jpg",
   "1429482830109.jpg",
   "1429569823779.jpg",
-  "1437167260211.jpg",
   "1437214448937.jpg",
   "1437214448937.jpg",
   "1444816416285.jpg",
-  "1444827390885.jpg",
-  "1444827771939.jpg",
   "1445223016379.jpg",
-  "1445223050369.jpg",
   "1445370353275.jpg",
   "1445705808951.jpg",
   "1445713184723.jpg",
-  "1448399280112.jpg",
   "1450066383293.jpg",
   "1450074394745.jpg"
 ];
@@ -39,7 +32,6 @@ var favorites = [
       ["Drive" , "https://drive.google.com", "dr"],
       ["IFTTT" , "https://ifttt.com/start", "ifttt"],
       ["Github" , "https://github.com/", "gh"],
-      ["Awesome Resources" , "https://github.com/0XE4/awesome-stock-resources", "ar"],
       ["Wired" , "http://www.wired.co.uk", "wi"],
       ["iFixit" , "https://www.ifixit.com/", "ifi"],
       ["RarBG" , "https://rarbg.com", "rar"],
@@ -85,6 +77,7 @@ var favorites = [
       ["Codeacademy", "http://www.codeacademy.com", "g"],
       ["Templated" , "http://templated.co", "tp"],
       ["Codepen" , "http://codepen.io", "cop"],
+      ["Awesome Resources" , "https://github.com/0XE4/awesome-stock-resources", "ar"],
     ]
   ],
   [ "Retail",
