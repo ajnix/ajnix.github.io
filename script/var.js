@@ -53,7 +53,7 @@ var favorites = [
       ["Twitter" , "https://twitter.com/", "twi"],
       ["Strava" , "http://strava.com","sta"],
       ["Garmin" , "http://connect.garmin.com", "gar"],
-      ["Linkedin" , "http//linkedin.co.uk", "lnk"],
+      ["Linkedin" , "https://www.linkedin.com/", "lnk"],
       ["Edugeek" , "http://edugeek.net", "edu"],
     ]
   ],
@@ -89,7 +89,7 @@ var favorites = [
   ],
   [ "Retail",
     [
-      ["Amazon", "http:/.amazon.co.uk", "am"],
+      ["Amazon", "http://.amazon.co.uk", "am"],
       ["Next", "http://next.co.uk", "nx"],
       ["Wiggle", "http://wiggle.co.uk", "wig"],
       ["eBay", "http://ebay.co.uk", "eb"],
