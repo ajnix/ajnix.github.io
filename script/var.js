@@ -54,6 +54,7 @@ var favorites = [
       ["Prime", "http://www.amazon.co.uk/Instant-Video/b?node=3010085031", "zon"],
       ["NHL" , "http://nhl.com", "NHL"],
       ["Youtube" , "https://youtube.com", "You"],
+      ["Vimeo" , "https://vimeo.com/", "Vim"],
     ]
   ],
   [ "Reddit",
