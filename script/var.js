@@ -50,7 +50,7 @@ var favorites = [
   ],
   [ "Watch",
     [
-      ["Netflix", "netflix.com", "net"],
+      ["Netflix", "https://www.netflix.com/", "net"],
       ["Prime", "http://www.amazon.co.uk/Instant-Video/b?node=3010085031", "zon"],
       ["NHL" , "http://nhl.com", "NHL"],
       ["Youtube" , "https://youtube.com", "You"],
@@ -73,11 +73,12 @@ var favorites = [
     [
       ["Flickr", "https://www.flickr.com/", "b"],
       ["Instagram", "https://instagram.com/", "wg"],
-      ["Nilsson Lee Cupcake" , "htt://cupcake.nilssonlee.se", "cce"],
+      ["Nilsson Lee Cupcake" , "http://cupcake.nilssonlee.se", "cce"],
       ["Codeacademy", "http://www.codeacademy.com", "g"],
       ["Templated" , "http://templated.co", "tp"],
       ["Codepen" , "http://codepen.io", "cop"],
-      ["Awesome Resources" , "https://github.com/0XE4/awesome-stock-resources", "ar"],
+      ["Awesome Resources" , "https://github.com/neutraltone/awesome-stock-resources", "ar"],
+      ["Awesome lists" , "https://github.com/sindresorhus/awesome", "al"],
     ]
   ],
   [ "Retail",
