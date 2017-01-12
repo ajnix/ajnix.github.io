@@ -33,7 +33,7 @@ section {
 .search-group .icon {
   font-size: 20px;
   padding: 15px;
-  background: rgba(53, 124, 136, 1);
+  background: rgba(42,51,79, 0.96);
   border-radius: 50%;
   cursor: pointer;
   position: absolute;
@@ -53,13 +53,13 @@ section {
 .search-group .search {
   width: 0;
   height: 40px;
-  background: rgba(37, 86, 95, 0.8);
+  background: rgba(42,51,79, 0.95);
   border: none;
   border-radius: 3px;
   outline: none;
   padding: 0 10px 0 35px;
   font-size: 20px;
-  color: #b2b2b2;
+  color: #e1e1e1;
   opacity: 0;
   transition: all 0.5s
 }
@@ -82,21 +82,24 @@ section {
 }
 
 .card-green .group {
-  padding: 40px 30px;
+  padding-top: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 20px;
   -webkit-box-sizing: padding-box;
   box-sizing: padding-box;
 }
 
 .card-green .group .title {
   font-weight: 700;
-  font-size: 60px;
+  font-size: 30px;
   text-align: center;
   margin-bottom: 10px;
 }
 
 .card-green .group .subtitle {
   font-size: 20px;
-  color: #b2b2b2;
+  color: #dddada;
   text-align: center;
 }
 
@@ -110,7 +113,7 @@ section {
 }
 
 .card-green .group .weather .icon {
-  color: #b2b2b2;
+  color: rgba(238,231,231 0.95);
 }
 
 .card-brown {
