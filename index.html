@@ -1,112 +1,134 @@
-<!DOCTYPE>
-<html>
-	<head>
-		<title>Homepage</title>
-		<script src="https://connect.soundcloud.com/sdk.js"></script>
-		<script src="script/min/jquery-1.11.3.min.js"></script>
-		<script src="script/min/TweenMax.min.js"></script>
-		<script src="script/min/jquery.backstretch.js"></script>
-		<script src="script/min/jquery.simpleWeather.js"></script>
-		<script src="script/min/jquery.mousewheel-min.js"></script>
-		<script src="script/min/jquery.terminal-0.9.3.js"></script>
-		<script src="script/min/jquery.mCustomScrollbar.min.js"></script>
-		<script src="script/min/soundcloud-audio.js"></script>
-		<script src="script/min/FeedEk.js" charset="utf-8"></script>
-		<link href='https://fonts.googleapis.com/css?family=Roboto:400,100|Orbitron' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" href='css/jquery.mCustomScrollbar.css'>
-		<link rel="stylesheet" href="css/style.css">
-		<meta charset="utf-8"/>
-	</head>
-	<body>
-		<section id="large-header">
-			<canvas id="header"></canvas>
-		</section>
-		<section class="left-pannel">
-			<div id="main-wrapper">
-				<div id="main-board">
-					<div class="text">
-						
-					</div>
-					<div class="image">
-						<img src="images/logo.png" alt="">
-					</div>
-					<div class="squares">
-						<div class="square s1"></div>
-						<div class="square s2"></div>
-						<div class="square s3"></div>
-						<div class="square s4"></div>
-					</div>
-				</div>
-			</div>
-			<div id="greetings-wrapper">
-				<div id="greetings-board">
-					<p class="greetings-helloworld">
-						<span class="greetings-title"></span><br>
-						<span class="greetings-name"></span>
-					</p>
-					<p class="greetings-time">
-						<span class="time-title">Time</span><br>
-						<span class="time-hours"></span> :
-						<span class="time-minutes"></span> :
-						<span class="time-seconds"></span><br>
-					</p>
-					<p class="greetings-date">
-						<span class="date-title">Date</span><br>
-						<span class="date-day"></span> .
-						<span class="date-month"></span> .
-						<span class="date-year"></span>
-					</p>
-				</div>
-			</div>
-			<div id="weather-wrapper">
-				<div id="weather-board">
-				</div>
-			</div>
-		</section>
-		<section class="mid-pannel">
-			<div id="search-wrapper">
-				<div id="search-board">
-					<p class="text">Search</p>
-					<input type="text">
-				</div>
-			</div>
-			<div id="favorites-wrapper">
-				<div id="favorites-board">
-					<p class="text">Bookmarks</p>
-					<div class="favorites">
-
-					</div>
-				</div>
-			</div>
-			<div id="informations-wrapper">
-				<div id="informations-board">
-				</div>
-			</div>
-		</section>
-		<section class="right-pannel">
-			<div id="terminal-wrapper">
-				<div id="terminal-board">
-					<div id="tabs">
-						<span id="main" class="t-tab active">Main</span>
-					</div>
-					<div class="terminals">
-						<div class="terminal-term active main">
-							<div id="main"></div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div id="rss-wrapper">
-				<div id="rss-board">
-
-				</div>
-			</div>
-		</section>
-	</body>
-	<script src="script/var.js"></script>
-	<script src="script/min/background.js"></script>
-	<script src="script/min/favorites.js"></script>
-	<script src="script/min/search.js"></script>
-	<script src="script/min/cff.js"></script>
-	<script src="script/app.js"></script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/weather-icons.css">
+  <link rel="stylesheet" href="css/main.css">
+  <title>Welcome!</title>
+</head>
+<body>
+    <div class="wrapper">
+  <div class="container">
+    <div class="clock">
+      <div class="marks"></div>
+      <div class="marks"></div>
+      <div class="marks"></div>
+      <div class="marks"></div>
+      <div class="marks"></div>
+      <div class="marks"></div>
+      <div class="marks"></div>
+      <div class="marks"></div>
+      <div class="marks"></div>
+      <div class="marks"></div>
+      <div class="marks"></div>
+      <div class="marks"></div>
+      <div id="hoursHand" class="hours-hand">
+        <div></div>
+      </div>
+      <div id="minutesHand" class="minutes-hand">
+        <div></div>
+      </div>
+      <div id="secondsHand" class="seconds-hand">
+        <div></div>
+      </div>
+    </div>
+  </div>
+</div>
+  <section>
+    <div class="search-group">
+      <i class="fa fa-search icon" aria-hidden="true"></i>
+      <input type="text" class="search" id="search" placeholder="Googley...">
+    </div>
+    <div class="row">
+      <div class="card-green">
+        <div class="group">
+          <br></br>
+          <h2 class="title" id="hour"></h2>
+          <p class="subtitle" id="date"></p>
+        </div>
+        <div class="group">
+          <div class="weather" id="weather">
+          </div>
+          <p class="subtitle" id="loc"></p>
+        </div>
+      </div>
+      <div class="card-brown">
+        <div class="cat-group">
+          <h3 class="cat">TECH:</h3>
+          <p><a href="https://mail.google.com/mail/u/0/#inbox">Gmail </a>/ </p>
+          <p><a href="https://drive.google.com/">Drive </a>/ </p>
+          <p><a href="https://github.com/">Github </a>/ </p>
+          <p><a href="http://www.wired.co.uk/">Wired </a>/ </p>
+          <p><a href="https://www.ifixit.com/">iFixit </a>/ </p>
+          <p><a href="https://rarbg.com/">RarBG</a></p>
+          <p><a href="https://interfacelift.com/wallpaper/downloads/date/any/">InterfaceLIFT</a></p>
+          <br></br>
+        </div>
+        <div class="cat-group">
+          <h3 class="cat">SOCIAL:</h3>
+          <p><a href="https://web.whatsapp.com/">Whatsapp </a>/ </p>
+          <p><a href="https://www.facebook.com/">Facebook </a>/ </p>
+          <p><a href="https://twitter.com/">Twitter </a>/ </p>
+          <p><a href="http://strava.com/">Strava </a>/ </p>
+          <p><a href="https://www.linkedin.com/">Linkedin </a>/ </p>
+          <p><a href="http://connect.garmin.com/">Garmin </a>/ </p>
+          <p><a href="http://edugeek.net/">Edugeek</a></p>
+          <br></br>
+        </div>
+        <div class="cat-group">
+          <h3 class="cat">REDDIT:</h3>
+          <p><a href="https://www.reddit.com/">Front </a>/ </p>
+          <p><a href="https://www.reddit.com/r/coloradoavalanche">Avalanche </a>/ </p>
+          <p><a href="https://www.reddit.com/r/PictureChallenge">PictureChallenge </a>/ </p>
+          <p><a href="https://www.reddit.com/r/hockey">Hockey </a>/ </p>
+          <p><a href="https://www.reddit.com/r/techsupportgore">Techgore </a>/ </p>
+          <p><a href="https://www.reddit.com/r/highqualitygifs">Gifs</a></p>
+          <br></br>
+        </div>
+        <div class="cat-group">
+          <h3 class="cat">WATCH:</h3>
+          <p><a href="https://www.netflix.com/">Netflix </a>/ </p>
+          <p><a href="http://www.amazon.co.uk/Instant-Video/b?node=3010085031">Prime </a>/ </p>
+          <p><a href="http://nhl.com/">NHL </a>/ </p>
+          <p><a href="https://youtube.com/">Youtube </a></p>
+          <br></br>
+        </div>
+        <div class="cat-group">
+          <h3 class="cat">RETAIL:</h3>
+          <p><a href="http://amazon.co.uk/">Amazon </a>/ </p>
+          <p><a href="http://next.co.uk/">Next </a>/ </p>
+          <p><a href="http://wiggle.co.uk/">Wiggle </a>/ </p>
+          <p><a href="http://ebay.co.uk/">eBay </a></p>
+        </div>
+      </div>
+      <div>
+        <div class="card-blue">
+        <div class="cat-group">
+          <h3 class="cat">NEWS</h3>
+          <div id="rss-wrapper">
+        <div id="rss-board">
+        </div>
+      </div>
+        </div>
+      </div>
+            <ul></ul>
+          </div>
+        </div>
+    </div>
+  </section>
+  <script src="js/search.js"></script>
+  <script src="js/clock.js"></script>
+  <script
+			  src="https://code.jquery.com/jquery-3.1.1.min.js"
+			  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+			  crossorigin="anonymous"></script>
+  <script src="js/jquery.simpleWeather.min.js"></script>
+  <script src="js/weather.js"></script>
+  <script src="js/background.js"></script>
+  <script src="FeedEk.js"></script>
+</body>
 </html>
