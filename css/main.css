@@ -78,7 +78,7 @@ section {
   background-color: rgba(37, 95, 58, 0.7);
   margin-right: 30px;
   border-radius: 5px;
-  width: 220px;
+  width: 150%;
 }
 
 .card-green .group {
@@ -92,14 +92,14 @@ section {
 
 .card-green .group .title {
   font-weight: 700;
-  font-size: 30px;
+  font-size: 35px;
   text-align: center;
   margin-bottom: 10px;
 }
 
 .card-green .group .subtitle {
   font-size: 20px;
-  color: #dddada;
+  color: #eae9e9;
   text-align: center;
 }
 
@@ -117,7 +117,7 @@ section {
 }
 
 .card-brown {
-  width: 700px;
+  width: 600%;
   height: auto;
   padding: 20px;
   margin-right: 30px;
@@ -147,7 +147,7 @@ section {
 }
 
 .card-blue {
-  width: 350px;
+  width: 250%;
   height: auto;
   padding: 20px;
   background: rgba(0, 149, 182, 0.85);
@@ -201,130 +201,24 @@ section {
           transform: translate(-50%, -50%);
 }
 
-.clock {
-  width: 100%;
-  height: 100%;
-  border-radius: 100%;
-  border: 6px solid white;
-  position: relative;
-}
+@media only screen and (min-width: 768px) {
+    .card-green {width:180px;height: auto;}
+    .card-brown {width:400px;height: auto;}
+    .card-blue {width:250px;height: auto;}
 
-.marks {
-  height: 140px;
-  width: 3px;
-  border-top: 8px solid white;
-  border-radius: 10000px;
-  padding: 4px 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%) rotate(0deg);
-          transform: translate(-50%, -50%) rotate(0deg);
-}
+@media only screen and (min-width: 1200px) {
+    .card-green {width:180px;height: auto;}
+    .card-brown {width:700px;height: auto;}
+    .card-blue {width:250px;height: auto;}
 
-.marks:nth-child(1) {
-  -webkit-transform: translate(-50%, -50%) rotate(30deg);
-          transform: translate(-50%, -50%) rotate(30deg);
-}
+@media only screen and (min-width: 1270px) and (min-height:600px) {
+    .card-green {width:180px;height: auto;}
+    .card-brown {width:750px;height: auto;}
+    .card-blue {width:300px;height: auto;}
 
-.marks:nth-child(2) {
-  -webkit-transform: translate(-50%, -50%) rotate(60deg);
-          transform: translate(-50%, -50%) rotate(60deg);
-}
+@media only screen and (min-width: 1270px) and (max-height: 900px){
 
-.marks:nth-child(3) {
-  -webkit-transform: translate(-50%, -50%) rotate(90deg);
-          transform: translate(-50%, -50%) rotate(90deg);
-}
 
-.marks:nth-child(4) {
-  -webkit-transform: translate(-50%, -50%) rotate(120deg);
-          transform: translate(-50%, -50%) rotate(120deg);
-}
+@media only screen and (min-width: 1800px) {
 
-.marks:nth-child(5) {
-  -webkit-transform: translate(-50%, -50%) rotate(150deg);
-          transform: translate(-50%, -50%) rotate(150deg);
-}
-
-.marks:nth-child(6) {
-  -webkit-transform: translate(-50%, -50%) rotate(180deg);
-          transform: translate(-50%, -50%) rotate(180deg);
-}
-
-.marks:nth-child(7) {
-  -webkit-transform: translate(-50%, -50%) rotate(210deg);
-          transform: translate(-50%, -50%) rotate(210deg);
-}
-
-.marks:nth-child(8) {
-  -webkit-transform: translate(-50%, -50%) rotate(240deg);
-          transform: translate(-50%, -50%) rotate(240deg);
-}
-
-.marks:nth-child(9) {
-  -webkit-transform: translate(-50%, -50%) rotate(270deg);
-          transform: translate(-50%, -50%) rotate(270deg);
-}
-
-.marks:nth-child(10) {
-  -webkit-transform: translate(-50%, -50%) rotate(300deg);
-          transform: translate(-50%, -50%) rotate(300deg);
-}
-
-.marks:nth-child(11) {
-  -webkit-transform: translate(-50%, -50%) rotate(330deg);
-          transform: translate(-50%, -50%) rotate(330deg);
-}
-
-.hours-hand,
-.minutes-hand,
-.seconds-hand {
-  height: 50%;
-  position: absolute;
-  left: 50%;
-  -webkit-transform: translate(-50%, 25%) rotate(0deg);
-          transform: translate(-50%, 25%) rotate(0deg);
-  -webkit-transform-origin: 50% 75%;
-          transform-origin: 50% 75%;
-  border-radius: 10000px;
-}
-
-.hours-hand {
-  width: 4px;
-}
-
-.minutes-hand {
-  width: 3px;
-}
-
-.seconds-hand {
-  width: 2px;
-}
-
-.hours-hand div,
-.minutes-hand div,
-.seconds-hand div {
-  width: 100%;
-  border-radius: 10000px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-}
-
-.hours-hand div {
-  height: 45px;
-  margin-top: 15px;
-  background-color: white;
-}
-
-.minutes-hand div {
-  height: 55px;
-  margin-top: 7px;
-  background-color: white;
-}
-
-.seconds-hand div {
-  height: 100%;
-  margin-top: 0;
-  background-color: white;
-}
-.rss-widget{text-align:center;padding-top: 18px;opacity: 0.85;}
+    
