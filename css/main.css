@@ -82,7 +82,7 @@ section {
 }
 
 .card-green .group {
-  padding-top: 40px;
+  padding-top: 20px;
   padding-left: 30px;
   padding-right: 30px;
   padding-bottom: 20px;
@@ -117,7 +117,7 @@ section {
 }
 
 .card-brown {
-  width: 600%;
+  width: 400%;
   height: auto;
   padding: 20px;
   margin-right: 30px;
@@ -213,8 +213,8 @@ section {
 
 @media only screen and (min-width: 1270px) and (min-height:600px) {
     .card-green {width:180px;height: auto;}
-    .card-brown {width:750px;height: auto;}
-    .card-blue {width:300px;height: auto;}
+    .card-brown {width:650px;height: auto;}
+    .card-blue {width:350px;height: auto;}
 
 @media only screen and (min-width: 1270px) and (max-height: 900px){
 

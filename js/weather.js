@@ -1,7 +1,7 @@
 (function() {
   $.simpleWeather({
     location: '',
-    woeid: '91727091',
+    woeid: '29062',
     unit: 'c',
     success: function(weather) {
       var temp = '<h2 class="title">' + weather.temp + '&deg;' +
