@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Helvetica', sans-serif;
   color: #fff;
   background-size: cover;
   background-repeat: no-repeat;
@@ -98,7 +98,7 @@ section {
 }
 
 .card-green .group .subtitle {
-  font-size: 20px;
+  font-size: 18px;
   color: #eae9e9;
   text-align: center;
 }
@@ -127,13 +127,13 @@ section {
 
 .card-brown .cat-group .cat {
   font-size: 18px;
-  color: #eee;
+  color: #ffffff;
   margin-right: 10px;
   display: inline;
 }
 
 .card-brown .cat-group p {
-  font-size: 18px;
+  font-size: 16px;
   display: inline;
 }
 
@@ -166,7 +166,7 @@ section {
 }
 
 .card-blue .cat-group a {
-  color: #99ddff;
+  color: #ffffff;
   text-decoration: none;
 }
 
